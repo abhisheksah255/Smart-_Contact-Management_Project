@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_page</title>
+    <style>
+        .container {
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            padding: 30px;
+            background: #e2e2e2;
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to SCM Project</h1>
+<h2 data-th-text="${name}"> This is Name : </h2>
+<h2 data-th-text="${age}"> This is age : </h2>
+<h2 th:text="${gender}"> This is gender : </h2>
+<p>This is gender : <span th:text="${gender}"></span></p>
+
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat earum ipsum hic voluptatibus et cum nihil, culpa, incidunt molestiae quod reprehenderit, natus ducimus officia quasi. Quam ipsa neque iusto iure nisi nesciunt consequatur itaque cum. Fugiat voluptatum mollitia sint quis quasi nesciunt beatae voluptatibus ex. Ducimus provident illo aut aspernatur!
+        </p>
+    </div>
+</body>
+</html>
